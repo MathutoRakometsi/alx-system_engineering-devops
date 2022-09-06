@@ -1,2 +1,2 @@
 #!/bin/bash
-file . -type d -path | wc -l
+file . -type d $PATH | wc -l
